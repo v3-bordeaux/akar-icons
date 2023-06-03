@@ -1,6 +1,6 @@
 {
-  "name": "akar-icons",
-  "version": "1.9.28",
+  "name": "@v3-bordeaux/akar-icons",
+  "version": "1.0.1",
   "description": "Extension of Akar Icons created by Arturo Wibawa",
   "main": "dist/index.js",
   "typings": "dist/icons.d.ts",
