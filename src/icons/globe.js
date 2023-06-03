@@ -15,14 +15,8 @@ const Globe = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <circle cx="12" cy="12" r="10"></circle>
-      <ellipse
-        cx="12"
-        cy="12"
-        rx="10"
-        ry="4"
-        transform="rotate(90 12 12)"
-      ></ellipse>
+      <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
+      <path d="M8 12c0 5.523 1.79 10 4 10s4-4.477 4-10-1.79-10-4-10-4 4.477-4 10z"></path>
       <path d="M2 12h20"></path>
     </svg>
   );

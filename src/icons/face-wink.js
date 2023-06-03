@@ -15,7 +15,7 @@ const FaceWink = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <circle cx="12" cy="12" r="10"></circle>
+      <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
       <path d="M7 9h2"></path>
       <path d="M16 9.05v-.1"></path>
       <path d="M16 15c-.5 1-1.79 2-4 2s-3.5-1-4-2"></path>

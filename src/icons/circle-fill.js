@@ -11,7 +11,7 @@ const CircleFill = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       fill={color}
       {...otherProps}
     >
-      <circle cx="12" cy="12" r="11"></circle>
+      <path d="M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11z"></path>
     </svg>
   );
 };

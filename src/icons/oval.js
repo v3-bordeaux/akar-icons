@@ -15,7 +15,7 @@ const Oval = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <ellipse cx="12" cy="12" rx="8" ry="10"></ellipse>
+      <path d="M12 22c4.418 0 8-4.477 8-10S16.418 2 12 2 4 6.477 4 12s3.582 10 8 10z"></path>
     </svg>
   );
 };

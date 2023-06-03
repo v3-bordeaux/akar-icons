@@ -15,10 +15,10 @@ const Cut = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <circle cx="7" cy="18" r="3"></circle>
+      <path d="M7 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
       <path d="M15 15L7 3"></path>
       <path d="M9 15l3-4.5M17 3l-3 4.5"></path>
-      <circle cx="17" cy="18" r="3"></circle>
+      <path d="M17 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
     </svg>
   );
 };

@@ -19,7 +19,7 @@ const Truck = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       <path d="M22 16v-4a4 4 0 0 0-4-4h-2v9h5a1 1 0 0 0 1-1z"></path>
       <path d="M15 17a3 3 0 1 0 6 0h-6z"></path>
       <path d="M22 14h-2"></path>
-      <circle cx="7" cy="17" r="3"></circle>
+      <path d="M7 20a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
     </svg>
   );
 };

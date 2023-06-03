@@ -16,8 +16,8 @@ const Percentage = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       {...otherProps}
     >
       <path d="M5 19L19 5"></path>
-      <circle cx="7" cy="7" r="3"></circle>
-      <circle cx="17" cy="17" r="3"></circle>
+      <path d="M7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+      <path d="M17 20a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
     </svg>
   );
 };

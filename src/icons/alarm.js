@@ -15,7 +15,7 @@ const Alarm = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <circle cx="12" cy="13" r="9"></circle>
+      <path d="M12 22a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"></path>
       <path d="M15.5 9.5L12 13"></path>
       <path d="M19 19l1 3"></path>
       <path d="M5 19l-1 3"></path>

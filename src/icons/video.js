@@ -15,7 +15,7 @@ const Video = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="2" y="4" width="20" height="16" rx="4"></rect>
+      <path d="M18 4H6a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h12a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4z"></path>
       <path d="M15 12l-5-3v6l5-3z"></path>
     </svg>
   );

@@ -17,7 +17,7 @@ const Wifi = ({ color = 'currentColor', size = '24', ...otherProps }) => {
     >
       <path d="M2 10c6-6.667 14-6.667 20 0"></path>
       <path d="M6 14c3.6-4 8.4-4 12 0"></path>
-      <circle cx="12" cy="18" r="1"></circle>
+      <path d="M12 19a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
     </svg>
   );
 };

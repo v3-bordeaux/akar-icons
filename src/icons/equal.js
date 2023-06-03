@@ -17,7 +17,7 @@ const Equal = ({ color = 'currentColor', size = '24', ...otherProps }) => {
     >
       <path d="M16 14H8"></path>
       <path d="M16 10H8"></path>
-      <circle cx="12" cy="12" r="10"></circle>
+      <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
     </svg>
   );
 };

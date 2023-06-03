@@ -19,7 +19,7 @@ const FaceVeryHappy = ({
       strokeLinejoin="round"
       {...otherProps}
     >
-      <circle cx="12" cy="12" r="10"></circle>
+      <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
       <path d="M8 9.05v-.1"></path>
       <path d="M16 9.05v-.1"></path>
       <path d="M12 18a4 4 0 0 0 4-4H8a4 4 0 0 0 4 4z"></path>

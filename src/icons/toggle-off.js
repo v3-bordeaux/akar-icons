@@ -15,8 +15,8 @@ const ToggleOff = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="2" y="7" width="20" height="10" rx="5"></rect>
-      <circle cx="7" cy="12" r="5"></circle>
+      <path d="M17 7H7a5 5 0 0 0 0 10h10a5 5 0 0 0 0-10z"></path>
+      <path d="M7 17A5 5 0 1 0 7 7a5 5 0 0 0 0 10z"></path>
     </svg>
   );
 };

@@ -11,7 +11,7 @@ const SquareFill = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       fill={color}
       {...otherProps}
     >
-      <rect x="2" y="2" width="20" height="20" rx="2"></rect>
+      <path d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path>
     </svg>
   );
 };

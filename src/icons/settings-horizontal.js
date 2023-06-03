@@ -20,9 +20,9 @@ const SettingsHorizontal = ({
       {...otherProps}
     >
       <path d="M3 5h4m14 0H11m-8 7h12m6 0h-2M3 19h2m16 0H9"></path>
-      <circle cx="9" cy="5" r="2"></circle>
-      <circle cx="17" cy="12" r="2"></circle>
-      <circle cx="7" cy="19" r="2"></circle>
+      <path d="M9 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
+      <path d="M17 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
+      <path d="M7 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
     </svg>
   );
 };

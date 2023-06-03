@@ -19,7 +19,7 @@ const BatteryFull = ({
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="2" y="6" width="18" height="12" rx="2"></rect>
+      <path d="M18 6H4a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2z"></path>
       <path d="M7 10v4"></path>
       <path d="M11 10v4"></path>
       <path d="M15 10v4"></path>

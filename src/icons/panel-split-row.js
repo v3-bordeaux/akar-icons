@@ -19,7 +19,7 @@ const PanelSplitRow = ({
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="2" y="3" width="20" height="18" rx="2"></rect>
+      <path d="M20 3H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"></path>
       <path d="M12 3v18"></path>
     </svg>
   );

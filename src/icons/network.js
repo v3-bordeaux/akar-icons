@@ -15,9 +15,9 @@ const Network = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <circle cx="18" cy="5" r="3"></circle>
-      <circle cx="18" cy="19" r="3"></circle>
-      <circle cx="6" cy="12" r="3"></circle>
+      <path d="M18 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+      <path d="M18 22a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+      <path d="M6 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
       <path d="M15.408 6.512l-6.814 3.975m6.814 7.001l-6.814-3.975"></path>
     </svg>
   );

@@ -19,7 +19,7 @@ const MobileDevice = ({
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="6" y="2" width="12" height="20" rx="2"></rect>
+      <path d="M16 2H8a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path>
       <path d="M11.95 18h.1"></path>
     </svg>
   );

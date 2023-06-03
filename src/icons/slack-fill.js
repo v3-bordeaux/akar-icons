@@ -24,7 +24,7 @@ const SlackFill = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M14.933 23a2.2 2.2 0 1 0 0-4.4h-2.2v2.2c-.001 1.213.984 2.198 2.2 2.2zm0-5.868H20.8a2.2 2.2 0 0 0 0-4.4h-5.866a2.2 2.2 0 0 0-.001 4.4z"
+        d="M14.933 23a2.2 2.2 0 1 0 0-4.4h-2.2v2.2c-.001 1.213.984 2.198 2.2 2.2zm0-5.868h5.866a2.2 2.2 0 0 0 .001-4.4h-5.866a2.2 2.2 0 0 0-.001 4.4z"
       ></path>
       <path
         fillRule="evenodd"

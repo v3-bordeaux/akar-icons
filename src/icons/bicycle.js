@@ -15,12 +15,12 @@ const Bicycle = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <circle cx="6" cy="15" r="4"></circle>
-      <circle cx="18" cy="15" r="4"></circle>
+      <path d="M6 19a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path>
+      <path d="M18 19a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path>
       <path d="M6 15l2-7h7.5"></path>
       <path d="M6 5h3"></path>
       <path d="M18 15L15 5h4"></path>
-      <path d="M19 5h.5A1.5 1.5 0 0 1 21 6.5v0A1.5 1.5 0 0 1 19.5 8H19"></path>
+      <path d="M19 5h.5a1.5 1.5 0 0 1 0 3H19"></path>
     </svg>
   );
 };

@@ -16,7 +16,7 @@ const Rss = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       {...otherProps}
     >
       <path d="M4 10.418c6.068-.319 9.9 3.514 9.582 9.582"></path>
-      <circle cx="5" cy="19" r="1"></circle>
+      <path d="M5 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
       <path d="M4 4.03C14.114 3.5 20.501 9.887 19.97 20"></path>
     </svg>
   );

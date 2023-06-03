@@ -16,8 +16,8 @@ const AlignLeft = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       {...otherProps}
     >
       <path d="M2 3v18"></path>
-      <rect x="6" y="6" width="16" height="4"></rect>
-      <rect x="6" y="14" width="10" height="4"></rect>
+      <path d="M22 6H6v4h16V6z"></path>
+      <path d="M16 14H6v4h10v-4z"></path>
     </svg>
   );
 };

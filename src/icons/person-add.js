@@ -15,7 +15,7 @@ const PersonAdd = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <circle cx="12" cy="7" r="5"></circle>
+      <path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"></path>
       <path d="M17 22H5.266a2 2 0 0 1-1.985-2.248l.39-3.124A3 3 0 0 1 6.649 14H7"></path>
       <path d="M19 13v6"></path>
       <path d="M16 16h6"></path>

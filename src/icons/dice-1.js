@@ -15,7 +15,7 @@ const Dice1 = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+      <path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"></path>
       <path d="M12.25 11.75v.5"></path>
       <path d="M12 12h.5"></path>
     </svg>

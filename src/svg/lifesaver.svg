@@ -1,14 +1,19 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_73_30)">
-<circle cx="12" cy="12" r="10" transform="rotate(45 12 12)" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="12" cy="12" r="4" transform="rotate(45 12 12)" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19.071 4.92894L14.8284 9.17158" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+<g clip-path="url(#clip0_1_1928)">
+<mask id="mask0_1_1928" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<path d="M24 0H0V24H24V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1_1928)">
+<path d="M4.92893 19.0711C8.83418 22.9763 15.1658 22.9763 19.0711 19.0711C22.9763 15.1658 22.9763 8.83416 19.0711 4.92892C15.1658 1.02367 8.83418 1.02367 4.92893 4.92892C1.02369 8.83416 1.02369 15.1658 4.92893 19.0711Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.17157 14.8284C10.7337 16.3905 13.2663 16.3905 14.8284 14.8284C16.3905 13.2663 16.3905 10.7337 14.8284 9.17157C13.2663 7.60947 10.7337 7.60947 9.17157 9.17157C7.60948 10.7337 7.60948 13.2663 9.17157 14.8284Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.071 4.92892L14.8284 9.17157" stroke="black" stroke-width="2" stroke-linejoin="round"/>
 <path d="M9.17163 14.8284L4.92899 19.0711" stroke="black" stroke-width="2" stroke-linejoin="round"/>
 <path d="M19.071 19.0711L14.8284 14.8284" stroke="black" stroke-width="2" stroke-linejoin="round"/>
-<path d="M9.17163 9.17158L4.92899 4.92894" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+<path d="M9.17163 9.17157L4.92899 4.92892" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+</g>
 </g>
 <defs>
-<clipPath id="clip0_73_30">
+<clipPath id="clip0_1_1928">
 <rect width="24" height="24" fill="white"/>
 </clipPath>
 </defs>

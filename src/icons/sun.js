@@ -16,7 +16,7 @@ const Sun = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       {...otherProps}
     >
       <path d="M12 3V2m0 20v-1m9-9h1M2 12h1m15.5-6.5L20 4M4 20l1.5-1.5M4 4l1.5 1.5m13 13L20 20"></path>
-      <circle cx="12" cy="12" r="4"></circle>
+      <path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path>
     </svg>
   );
 };

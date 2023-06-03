@@ -15,7 +15,7 @@ const Computing = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="5" y="5" width="14" height="14" rx="2"></rect>
+      <path d="M17 5H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2z"></path>
       <path d="M8 5V2"></path>
       <path d="M16 5V3l1-1"></path>
       <path d="M16 22v-3"></path>

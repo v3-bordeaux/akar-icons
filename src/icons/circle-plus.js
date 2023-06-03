@@ -16,7 +16,7 @@ const CirclePlus = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       {...otherProps}
     >
       <path d="M12 8v4m0 0v4m0-4h4m-4 0H8"></path>
-      <circle cx="12" cy="12" r="10"></circle>
+      <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
     </svg>
   );
 };

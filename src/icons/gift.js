@@ -15,7 +15,7 @@ const Gift = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="3" y="8" width="18" height="14" rx="2"></rect>
+      <path d="M19 8H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2z"></path>
       <path d="M12 5a3 3 0 1 0-3 3"></path>
       <path d="M15 8a3 3 0 1 0-3-3"></path>
       <path d="M12 5v17"></path>

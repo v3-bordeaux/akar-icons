@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const LinkedinFill = ({
+const LinkedInFill = ({
   color = 'currentColor',
   size = '24',
   ...otherProps
@@ -24,9 +24,9 @@ const LinkedinFill = ({
   );
 };
 
-LinkedinFill.propTypes = {
+LinkedInFill.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-export default LinkedinFill;
+export default LinkedInFill;
