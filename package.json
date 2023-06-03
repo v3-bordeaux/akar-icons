@@ -1,17 +1,17 @@
 {
   "name": "akar-icons",
   "version": "1.9.28",
-  "description": "A perfectly rounded icon library made for everyone.",
+  "description": "Extension of Akar Icons created by Arturo Wibawa",
   "main": "dist/index.js",
   "typings": "dist/icons.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/artcoholic/akar-icons.git",
+  "repository": "https://github.com/v3-bordeaux/akar-icons.git",
   "author": {
-    "name": "Arturo Wibawa",
-    "email": "agwibawa@gmail.com",
-    "url": "https://arturowibawa.com"
+    "name": "Arthaud Proust",
+    "email": "comptes@arthaud.dev",
+    "url": "https://arthaudproust.fr"
   },
   "keywords": [
     "react",
@@ -24,7 +24,7 @@
     "library"
   ],
   "bugs": {
-    "url": "https://github.com/artcoholic/akar-icons/issues"
+    "url": "https://github.com/v3-bordeaux/akar-icons/issues"
   },
   "homepage": "https://akaricons.com",
   "scripts": {
