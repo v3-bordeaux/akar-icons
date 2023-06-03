@@ -448,3 +448,4 @@ export { default as YoutubeFill } from './icons/youtube-fill';
 export { default as ZoomFill } from './icons/zoom-fill';
 export { default as ZoomIn } from './icons/zoom-in';
 export { default as ZoomOut } from './icons/zoom-out';
+export { default as Parking } from './icons/parking';

@@ -457,3 +457,4 @@ export const YoutubeFill: Icon;
 export const ZoomFill: Icon;
 export const ZoomIn: Icon;
 export const ZoomOut: Icon;
+export const Parking: Icon;
