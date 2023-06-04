@@ -1,6 +1,6 @@
 {
   "name": "@v3-bordeaux/akar-icons",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Extension of Akar Icons created by Arturo Wibawa",
   "main": "dist/index.js",
   "typings": "dist/icons.d.ts",
@@ -33,7 +33,7 @@
     "build:bundle": "sudo rm -rf dist && node_modules/.bin/rollup --c ./build/rollup.config.bundle.js",
     "dev": "rollup -w -c ./build/rollup.config.dev.js",
     "build": "rollup -c ./build/rollup.config.prod.js",
-    "publish": "npm run build:bundle && npm publish"
+    "build:publish": "npm run build:bundle && npm publish"
   },
   "config": {
     "style": "stroke"
